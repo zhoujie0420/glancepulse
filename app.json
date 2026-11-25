@@ -1,0 +1,22 @@
+{
+  "package_id": "com.elkzhou.glancepulse",
+  "edition": "202601",
+  "name": "GlancePulse",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Fetches live Hyperliquid perpetuals, Polymarket odds, and executes 1-tap paper/testnet orders via the GlancePulse backend.",
+      "whitelist": [
+        "http://127.0.0.1:8787",
+        "http://localhost:8787"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
